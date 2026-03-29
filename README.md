@@ -53,7 +53,7 @@ rockstar-rps/
 ## 🎮 How to Play
 
 1. Start the app locally  
-http://localhost:3000      http://localhost:3000
+http://localhost:3000
 
 2. Open the same link in another tab/device  
 
