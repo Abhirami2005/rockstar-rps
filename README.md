@@ -1,25 +1,44 @@
-🎮 Rock Paper Scissors Multiplayer Game:
+# 🎮 Rock Paper Scissors — Multiplayer Game
 
-A real-time multiplayer Rock Paper Scissors game built using Node.js, Express, WebSockets, and React.
-Players can join a room and play live with real-time updates.
+## 📌 Overview
+A real-time multiplayer Rock Paper Scissors game built using **Node.js, Express, WebSockets, and React**.
 
-🚀 Features:
+Players can join a room and play live with instant updates.
 
-🎯 Real-time multiplayer gameplay
-⚡ WebSocket communication
-🧑‍🤝‍🧑 Room-based matching system
-🔄 Instant result updates
-💻 Simple and responsive UI
-🌐 Runs locally on browser
-🛠️ Tech Stack
+---
 
-Frontend: React / HTML / CSS / JavaScript
-Backend: Node.js
-Server: Express.js
-Real-time: WebSocket (ws)
-Tooling: TypeScript (tsx)
-📁 Project Structure:
+## 🚀 Features
 
+- 🎯 Real-time multiplayer gameplay  
+- ⚡ WebSocket communication  
+- 🧑‍🤝‍🧑 Room-based matchmaking system  
+- 🔄 Instant result updates  
+- 💻 Simple & responsive UI  
+- 🌐 Runs locally in browser  
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend**
+- React
+- HTML
+- CSS
+- JavaScript  
+
+**Backend**
+- Node.js
+- Express.js  
+
+**Real-time Engine**
+- WebSocket (ws)
+
+**Tooling**
+- TypeScript (tsx)
+
+---
+
+## 📁 Project Structure
 rockstar-rps/
 │
 ├── server.ts
@@ -27,24 +46,40 @@ rockstar-rps/
 ├── src/
 ├── public/
 └── README.md
-How to Play
 
-Open the app in browser:
 
+---
+
+## 🎮 How to Play
+
+1. Start the app locally  
 http://localhost:3000
-Share the same link with another player
-Both players join the same room
-Choose:
-Rock 🪨
-Paper 📄
-Scissors ✂️
-Result is shown instantly ⚡
 
-Future Improvements
-Score tracking system
-Match history
-Better UI design
-Mobile optimization
-Online deployment (Render/Vercel)
-👨‍💻 Author
-GitHub: Abhirami2005
+2. Open the same link in another tab/device  
+
+3. Both players join the same room  
+
+4. Choose your move:
+- 🪨 Rock  
+- 📄 Paper  
+- ✂️ Scissors  
+
+5. Results are shown instantly ⚡  
+
+---
+
+## 💡 Future Improvements
+
+- 🏆 Score tracking system  
+- 📜 Match history  
+- 🎨 Better UI/UX design  
+- 📱 Mobile optimization  
+- 🌍 Online deployment (Render / Vercel)  
+
+---
+
+## 👨‍💻 Author
+
+- GitHub: [Abhirami2005](https://github.com/Abhirami2005)
+
+---
