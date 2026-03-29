@@ -53,7 +53,7 @@ rockstar-rps/
 ## 🎮 How to Play
 
 1. Start the app locally  
-http://localhost:3000
+http://localhost:3000      http://localhost:3000
 
 2. Open the same link in another tab/device  
 
@@ -83,3 +83,6 @@ http://localhost:3000
 - GitHub: [Abhirami2005](https://github.com/Abhirami2005)
 
 ---
+
+## 🚀 Live Demo
+👉 https://rockstar-rps-2.onrender.com
