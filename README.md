@@ -1,20 +1,50 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+🎮 Rock Paper Scissors Multiplayer Game:
 
-# Run and deploy your AI Studio app
+A real-time multiplayer Rock Paper Scissors game built using Node.js, Express, WebSockets, and React.
+Players can join a room and play live with real-time updates.
 
-This contains everything you need to run your app locally.
+🚀 Features:
 
+🎯 Real-time multiplayer gameplay
+⚡ WebSocket communication
+🧑‍🤝‍🧑 Room-based matching system
+🔄 Instant result updates
+💻 Simple and responsive UI
+🌐 Runs locally on browser
+🛠️ Tech Stack
 
+Frontend: React / HTML / CSS / JavaScript
+Backend: Node.js
+Server: Express.js
+Real-time: WebSocket (ws)
+Tooling: TypeScript (tsx)
+📁 Project Structure:
 
-## Run Locally
+rockstar-rps/
+│
+├── server.ts
+├── package.json
+├── src/
+├── public/
+└── README.md
+How to Play
 
-**Prerequisites:**  Node.js
+Open the app in browser:
 
+http://localhost:3000
+Share the same link with another player
+Both players join the same room
+Choose:
+Rock 🪨
+Paper 📄
+Scissors ✂️
+Result is shown instantly ⚡
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Future Improvements
+Score tracking system
+Match history
+Better UI design
+Mobile optimization
+Online deployment (Render/Vercel)
+👨‍💻 Author
+GitHub: Abhirami2005
