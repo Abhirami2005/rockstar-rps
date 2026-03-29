@@ -52,10 +52,8 @@ rockstar-rps/
 
 ## 🎮 How to Play
 
-1. Start the app locally  
-http://localhost:3000
-
-2. Open the same link in another tab/device  
+1. we can play with AI (or) Computer
+2. single person
 
 3. Both players join the same room  
 
