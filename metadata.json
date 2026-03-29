@@ -1,0 +1,5 @@
+{
+  "name": "Rockstar RPS",
+  "description": "A smart and modern Rock Paper Scissors game with predictive AI, local multiplayer, and competitive leaderboards.",
+  "requestFramePermissions": []
+}

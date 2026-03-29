@@ -1,0 +1,40 @@
+{
+  "entities": {
+    "LeaderboardEntry": {
+      "title": "Leaderboard Entry",
+      "description": "A record of a player's total wins for the global leaderboard.",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "wins": { "type": "integer" },
+        "coins": { "type": "integer" },
+        "lastUpdated": { "type": "string", "format": "date-time" }
+      },
+      "required": ["name", "wins", "coins", "lastUpdated"]
+    },
+    "GameRoom": {
+      "title": "Game Room",
+      "description": "A real-time game session for unlimited players.",
+      "type": "object",
+      "properties": {
+        "hostId": { "type": "string" },
+        "players": { "type": "object" },
+        "status": { "type": "string", "enum": ["lobby", "counting", "result"] },
+        "round": { "type": "integer" },
+        "lastMoveAt": { "type": "string", "format": "date-time" },
+        "winLimit": { "type": "integer" }
+      },
+      "required": ["hostId", "players", "status"]
+    }
+  },
+  "firestore": {
+    "/leaderboard/{playerName}": {
+      "schema": "LeaderboardEntry",
+      "description": "Global leaderboard entries."
+    },
+    "/rooms/{roomId}": {
+      "schema": "GameRoom",
+      "description": "Active group game sessions."
+    }
+  }
+}

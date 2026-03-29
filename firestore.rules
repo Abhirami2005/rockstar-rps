@@ -1,0 +1,27 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    match /leaderboard/{playerName} {
+      allow read: if true;
+      allow create, update: if isAuthenticated();
+    }
+
+    match /rooms/{roomId} {
+      allow read: if isAuthenticated();
+      
+      // Allow creation if authenticated
+      allow create: if isAuthenticated() && 
+                      request.resource.data.hostId == request.auth.uid;
+                      
+      // Allow update if player is in the room or joining
+      allow update: if isAuthenticated() && 
+                      (request.auth.uid in resource.data.players || 
+                       !(request.auth.uid in resource.data.players));
+    }
+  }
+}
